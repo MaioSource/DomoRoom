@@ -1,0 +1,25 @@
+Automatizar las luces de una habitacion.
+
+2 Versiones:
+DomoRoom_Cableado_Final | Cableado
+DomoRoom_Wireless_Final | Utiliza radio frecuencia
+
+---------------DomoRoom_Wireless_Final---------------------------
+1*Arduino uno
+1*Ethernet shield
+2*Atmega328p
+1*RF emisor
+1*RF receptor
+2*Reles
+
+Arduino uno + ethernet shield = Servidor
+Atmega328p + RF emisor = Emisor
+Atmega328p + RF receptor = Receptor
+-----------------------------------------------------------------
+---------------DomoRoom_Cableado_Final---------------------------
+1*Arduino uno
+1*Ethernet shield
+2*Reles
+
+Arduino uno + ethernet shield = Servidor
+------------------------------------------------------------------
